@@ -1,0 +1,17 @@
+<script id="minecraftStatusTemplate" type="text/template">
+    <div id="serverStatus">
+        <p class="text">coolworld.servegame.com</p>
+        <% if (typeof(online) !== "undefined") { %>
+            <div class="online">
+                <div class="led-green"></div>
+                <p class="text">The server is ONLINE</p>
+            </div>
+        <% } else { %>
+            <div class="offline">
+                <img src="/assets/img/nome.api.gif" alt="nope.avi">
+                <div class="led-red"></div>
+                <p class="text">The server is OFFLINE</p>
+            </div>
+        <% } %>
+    </div>
+</script>
