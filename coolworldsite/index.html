@@ -1,0 +1,84 @@
+---
+layout: home
+---
+
+<div class="home">
+
+  <div class="bss-slides slideshow">
+      <figure>
+          <img src="/assets/img/farm.png" width="100%" />
+          <figcaption>Jack_Recon's impressive farm</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/freakshow.png" width="100%" />
+          <figcaption>MiXeN42's freakshow</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/xporbs.gif" width="100%" />
+          <figcaption>1.8 XP orb madness!</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/coolbreeze.png" width="100%" />
+          <figcaption>Southwest view from the top of ROFL Tower in Cool Breeze</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/mtchicken.png" width="100%" />
+          <figcaption>Mount Chicken in Cool World of Cool</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/coolbreezefarmland.png" width="100%" />
+          <figcaption>Cool Breeze farmland</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/forestfire.png" width="100%" />
+          <figcaption>Forest fire!</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/sheeponstation.png" width="100%" />
+          <figcaption>A sheep on Cool Breeze train station</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/safehouse.png" width="100%" />
+          <figcaption>A safehouse in the Cool World of Cool Wilderness!</figcaption> 
+      </figure>
+      
+      <figure>
+          <img src="/assets/img/zedicstore.png" width="100%" />
+          <figcaption>Castletown's General Store</figcaption> 
+      </figure>
+      
+      <!-- more figures here as needed -->
+  </div>
+  
+
+
+  
+  
+  
+  
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

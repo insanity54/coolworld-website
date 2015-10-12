@@ -1,0 +1,27 @@
+{
+  "name": "coolworld-website",
+  "version": "0.0.0",
+  "homepage": "https://github.com/insanity54/coolworld-website",
+  "authors": [
+    "Chris Grimmett <chris@grimtech.net>"
+  ],
+  "description": "cool world of cool minecraft server website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "coolworldsite/assets/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Swipe": "swipejs#~2.0.0",
+    "jssor-slider": "jssor#*",
+    "hammerjs": "~2.0.4"
+  }
+}
