@@ -1,0 +1,1 @@
+make generates version files in this directory.
