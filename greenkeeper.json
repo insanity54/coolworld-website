@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "coolworldsite/assets/js/hammerjs/package.json"
+      ]
+    }
+  }
+}
